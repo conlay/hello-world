@@ -1,4 +1,5 @@
-Linux IO access
+
+/*Linux IO access 2017/05/17
 compile : gcc hello.c -o hello
 run : ./hello
 
@@ -12,6 +13,7 @@ debug : gcc -ggdb hello.c -o hello //compile for gdb
  : n  //if step same as TD F8
  : q  //exit debug
 //
+*/
 #include <sys/types.h>
 #include <arpa/inet.h>
 #include <stdio.h>
